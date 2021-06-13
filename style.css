@@ -1,0 +1,163 @@
+
+
+
+
+
+.aply-maincontent{}
+.aply-maincontent h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+.aply-step-items{}
+.aply-step-items ul {
+    list-style: none;
+    position: relative;
+}
+.aply-step-items ul::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    width: 2px;
+    height: calc(100% - 100px);
+    background: red;
+}
+.aply-step-items ul li::before {
+    content: attr(data-step);
+    position: absolute;
+    top: 0px;
+    left: -59px;
+    width: 40px;
+    height: 40px;
+    background: #f9fafb;
+    border: 1px solid red;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.aply-step-items ul li {
+    position: relative;
+    margin-left: 33px;
+}
+.aply-step-items ul li strong {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 11px;
+    font-weight: 600;
+}
+.aply-step-items ul li p {
+    color: #606060;
+    font-size: 18px;
+}
+
+.step-btn .btn-primary{
+    background: red;
+    border: none;
+    position: relative;
+}
+.step-btn .btn-primary::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width:0;
+    border-radius: 4px;
+
+    transition: .4s;
+}
+button:hover .btn-primary::before{
+    width: 100%;
+}
+
+/* form-section */
+.form-section {
+    background: #fdebeb;
+    padding: 40px;
+}
+.form-title{}
+.form-title p{}
+.form-title h1 {
+    margin-bottom: 30px;
+}
+
+.main-form input {
+    border: none;
+    padding: 14px;
+}
+.main-form label{
+
+}
+.main-form select {
+    margin-bottom: 14px;
+    padding: 14px;
+}
+
+body .btn-primary{}
+
+.discuss-cotaniner{
+    background: #e73c3e;
+    color: #fff;
+}
+.discuss-cotnent h1{}
+
+.discuss-cotnent {
+    margin-top: 14px;
+    border-right: 1px solid #ddd;
+}
+.discuss-icon i {
+    display: inline-block;
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    color: red;
+    border-radius: 50%;
+}
+.discuss-icon a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.discuss-icon {
+    margin-top: 34px;
+}
+
+
+/* company-section */
+.company-section {
+    margin: 40px 0px;
+}
+
+.company-values{}
+
+.company-content h2 {
+    font-size: 40px;
+    margin-bottom: 36px;
+}
+.company-items{}
+.company-icon{}
+.company-icon i {
+    color: red;
+    font-size: 50px;
+    margin-right: 27px;
+    margin-top: 0px;
+    display: inline-block;
+}
+.company-text{}
+.company-text h3{}
+.company-text p {
+    font-size: 18px;
+    color: #606060;
+}
+.company-img {
+    margin-top: 70px;
+}
